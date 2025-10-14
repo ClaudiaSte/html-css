@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(234, 252, 207);
+    font-family: sans-serif;
+}
+
+/*
+em HTML é id = em CSS é #
+em HTML é class = em CSS .*/
+
+h1 {
+    color: rgb(69, 101, 21);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(69, 101, 21);
+
+    color: white;
+}
+
+h2 {
+    color: rgb(5, 165, 32);
+}
+
+.basico {
+    color: green;
+    font-weight: bold;
+}
+
+.intermediario {
+    color: rgb(132, 132, 4);
+    font-weight: bold;
+}
+
+.avancado {
+    color: blue;
+}
