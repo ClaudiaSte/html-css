@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .destaque{
+            background-color: rgb(213, 56, 56);
+            font-weight: bold;
+        }
+
+        .cnome{
+            background-color: rgb(179, 223, 255);
+        }
+
+        col.csexo{
+            background-color: rgb(255, 179, 201);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+
+    <table>
+        <colgroup>
+           <col class="cnome">
+           <col class="csexo">
+           <col class="cidade">
+           <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Silva</td>
+            <td>Feminino</td>
+            <td>28</td>
+            <td>Engenheira</td>
+        </tr>
+        <tr>
+            <td>Bruno Costa</td>
+            <td>Masculino</td>
+            <td>34</td>
+            <td>Médico</td>
+        </tr>
+        <tr>
+            <td>Carla Souza</td>
+            <td>Feminino</td>
+            <td>25</td>
+            <td>Designer</td>
+        </tr>
+        <tr>
+            <td>Daniel Oliveira</td>
+            <td>Masculino</td>
+            <td>30</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Eva Lima</td>
+            <td>Feminino</td>
+            <td>27</td>
+            <td>Advogada</td>
+        </tr>
+        <tr>
+            <td>Felipe Ramos</td>
+            <td>Masculino</td>
+            <td>32</td>
+            <td>Arquiteto</td>
+        </tr>
+    </table>
+</body>
+</html>
