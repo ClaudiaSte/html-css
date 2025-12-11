@@ -1,17 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudos de Iframe</title>
+    <style>
+        iframe {
+            width: 400px;
+            height: 400px;
+        }
+    </style>
 </head>
-<body>
-    <h1>Testando o uso de um iframe</h1>
-    <p>Acessando o site do 
-    
-       <iframe src="https://cursoemvideo.com" frameborder="5"></iframe> 
 
-    para aprender a programar.</p>
-    <p>O site do <iframe src="https://www.google.com.br" frameborder="0"></iframe> também é muito legal</p>
+<body>
+    <!--
+    Tamanho padrão do iframe: 300px de largura por 150px de altura
+    1em = tamanho da fonte do elemento
+    -->
+    <h1>Testando o uso de um iframe</h1>
+    <p>
+        Acessando o site do
+
+        <iframe src="https://cursoemvideo.com" frameborder="5" scolling="no"></iframe>
+        <a href="https://cursoemvideo.com" target="_blank">Curso em Video</a>
+        para aprender a programar.
+
+    </p>
+
+    <p>
+        O reposítorio do Guanabara
+
+        <iframe src="https://gustavoguanabara.github.io" frameborder="0"></iframe>no
+        <a href="https://gustavoguanabara.github.io" target="_blank">GitHub</a>
+
+    </p>
+
+    <!--<p>O site do <iframe src=" https://www.google.com.br" frameborder="0"></iframe> também é muito legal, pena que
+        nãofunciona dentro do iframe.
+    </p>-->
 </body>
+
 </html>
