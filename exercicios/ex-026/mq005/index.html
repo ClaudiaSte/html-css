@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Query</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit perspiciatis, earum corrupti sequi doloremque sapiente, itaque harum tempore nihil animi aliquid sunt ipsam ullam consectetur nam at praesentium et molestiae?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium amet quae explicabo quo quas consequatur, quidem sed nostrum, architecto incidunt magnam labore autem accusantium iusto odio. Quos dolores fugiat ullam.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis culpa ab assumenda eum enim, veniam dignissimos rerum eveniet illum quas doloribus atque dolores, ea dolor? Facere, cum? Recusandae, eos expedita?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit quod consectetur beatae perspiciatis. Nostrum, dolore? Nostrum dicta fugit reiciendis, ducimus natus nihil, architecto eum blanditiis eligendi aliquam, sapiente nesciunt facere?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium eligendi illo rem accusamus, laborum fugit excepturi debitis, enim suscipit dolores veniam, itaque quae similique magni voluptatum quod amet nemo a!</p>
+        </article>
+    </main>
+    <script>
+function clickMenu() {
+   if (itens.style.display == 'block') {
+       itens.style.display = 'none';
+   } else {
+       itens.style.display = 'block';
+   }
+}
+    </script>
+</body>
+
+</html>
